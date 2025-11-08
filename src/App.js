@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Calender from "./Calender";
 import Sidebar from "./Sidebar";
-import eventsData from "./eventsData.json"; // ✅ import static events
+import eventsData from "./eventsData.json"; 
 
 function App() {
   const [events, setEvents] = useState([]);
 
-  // Load static events on first render
+  // quick setup: giving sample events some IDs so React doesn’t complain later
   useEffect(() => {
-    // Assign IDs to static events (so deletion works)
+    
     const withIds = eventsData.map((e, idx) => ({ id: idx + 1, ...e }));
     setEvents(withIds);
   }, []);
