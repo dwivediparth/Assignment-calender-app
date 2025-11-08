@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Assignment-calender-app/static/css/main.72214808.css",
+    "main.js": "/Assignment-calender-app/static/js/main.b4e0f3ef.js",
+    "index.html": "/Assignment-calender-app/index.html",
+    "main.72214808.css.map": "/Assignment-calender-app/static/css/main.72214808.css.map",
+    "main.b4e0f3ef.js.map": "/Assignment-calender-app/static/js/main.b4e0f3ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72214808.css",
+    "static/js/main.b4e0f3ef.js"
+  ]
+}
